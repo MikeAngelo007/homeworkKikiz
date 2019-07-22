@@ -1,0 +1,612 @@
+html {
+  box-sizing: border-box;}
+*, *:before, *:after {
+  box-sizing: inherit;}
+/*para que los elementos no utilicen más espacio del adecuado*/
+body {
+    background-color:rgb(255,203,197);
+	background-repeat: no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    background-size: 100% 100%, auto;
+    margin: 0;
+    cursor: url(imagenes/cursor.cur),auto;
+}
+/*para ponerle el fondo del bodyde un color determinado y poner una forma al cursor*/
+.imgindex {
+    max-width: 1200px; 
+    text-align: center; 
+    margin:0 auto}
+/*contenedor para el maximo del ancho de pagina*/
+
+a {text-decoration: none}
+/*para quitarle el subrayado a los vinculos*/
+nav a {
+    display: inline-block;
+    margin: 0;
+    max-width: 40%; 
+    max-height: 50%;
+    cursor: url(imagenes/cursor.cur),auto;
+}
+/*para organizar la navegacion del index y demás paginas*/
+.imgnav {
+    width:100%; 
+    max-height: 70px}
+/*para las imagenes que acompañan a la navegacion principal*/
+h1{
+    text-align: center; 
+    font-family: 'Diplomata', cursive;
+    color: red}
+/*caracteristicas titulo 1*/
+h2{
+    text-align: center; 
+    font-family: 'Diplomata', cursive;
+    color: orangered}
+/*caracteristicas titulo 2*/
+h3  {
+    font-family: 'Varela', sans-serif;}
+/*caracteristicas titulo 2*/
+.textparrafos {
+    text-align: justify; 
+    padding: 0 30px;
+    margin-bottom:5px;}
+/*caracteristicas de losparrafos*/
+
+ul.historianav li{list-style: none;
+    display: inline-block; 
+    width: 24%; text-align: center; 
+    margin: 0;
+    background-color:firebrick; 
+    padding: 5px; 
+    font-family:'Varela', sans-serif; 
+    color: white}
+/*una lista para hacer un menú de navegación*/
+ul.historianav li a {color:white}
+/*color de la letra del menu de navegacion de la pagina de historia*/
+.contenedor { /*contenedor para el texto e imagenes de la pagina de historia*/
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+}
+.imghistoria {
+    display: inline-block;  
+    width: 30%;
+    padding: 5px;
+    }
+/*permite organizar una imagen al lado del parrafo*/
+
+.imghistoria2 {
+    width: 30%;
+    padding: 5px;
+}
+/*caracteristicas para acomodar otras dos imagenes a un parrafo*/
+.fl {
+    float: left;
+/*para que el texto flote al lado izquiero de la pantalla*/
+}
+.fr {
+    float: right;
+}
+/*para que el las imagenes permanezcan al lado derecho de la pantalla*/
+
+div#disolucion{
+    display: inline-block;
+}
+/*alinear los elemetos y darles propeidades como padding*/
+
+h3  {
+    color: firebrick;
+    font-size: 1.1rem;
+/*caaracteristicas de los subtitulos*/
+}
+.phistoria{
+    display:inline-block;
+    width: 70%;
+    text-align: justify;
+    font-size: 1.1rem;
+    padding: 5px;
+    vertical-align: top;
+}
+/*caracteristicas de los parrafos de la pagina historia*/
+.pubicacion {
+    font-size: 1.1rem;
+    text-align: justify;
+    padding: 7px;
+/*caracteristicas del texto en la pagina ubicación*/
+}
+.fiore  {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center; 
+/*posición de la imagen de la agina ubicacion*/
+}
+.conteinerFiore {
+    text-align: center
+}
+/*posicionar la imagen en el centro de la pagina poniendoda dentro de un contenedor*/
+h4  {
+    font-family:'Varela', sans-serif;
+    text-align: center;
+    color: red;
+    margin: 5px 0;
+/*caracteristicas de la fuente del nombre del personaje principal*/
+}
+.tl{
+    text-align: left;
+/*alinear el texto a la izquierda*/
+
+}
+.tr{
+    text-align: right;
+}
+/*alinear el texto a la derecha*/
+.titleh4{
+    font-size:1.3rem;
+    padding: 10px;
+}
+/*caracteristicas de los titulos de los nombres de los demás personajes */
+.ppersonajes {
+    display: inline-block;
+    padding: 10px;
+    width: 80%;
+    vertical-align: top;
+    text-align: justify;
+    margin: 0;
+    font-size: 1.3rem
+}
+/*caracteristicas del texto de los personajes*/
+.ppersonajes2 {
+    padding: 10px;
+    vertical-align: middle;
+    text-align: justify;
+    font-size: 1.3rem
+}
+/*caracteristica del texto del personaje principal*/
+.imgnatsu{
+    width: 80%;
+    margin:0 auto;  
+}
+/*caracteristicas de la imagen del personaje principal*/
+
+.tc {
+    text-align: center
+}
+/*alinear los titulos en el centro*/
+.contperso{
+    vertical-align: bottom;
+}
+/*contenedor de los personajes para que todo quede alineado de manera vertical*/
+.imgpersonajes  {
+    width: 19%;
+    display: inline-block;
+    padding: 10px;
+    margin: auto 0;       
+}
+/*caracteristicas de la posicion de la imagen de los personajes*/
+.contper{
+    margin: 0 auto;
+    width: 90%
+}/*caracteristicas del contenedor de los personajes*/
+.pactv  {
+    padding: 20px;
+    text-align: justify
+}
+/*caracteristicas de los parrafos de las actividades*/
+p   {
+    font-family: 'Varela', sans-serif;
+    margin:0;
+}
+/*caracteristicas de los parrafos de las actividades*/
+.subacti {
+    text-align: center
+}
+/*caraterisiticas de los titulos de la pagina de actividades*/
+h5  {
+    font-family: 'Varela', sans-serif;
+    color: brown;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin: 10px 0;
+}
+/*caracteristicas de los subtitulos de la pagina actividades*/
+.imgremios  {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+/*posicion de la imagen de la pagina de actividades*/
+}
+.imggr{
+    width: 100%;
+/*tamaño de la imagen de la pagina de actividades*/
+}
+.tcreditos  {
+    text-align: left;
+    width: 70%;
+    margin: 0 auto
+/*caracteristicas de los titulos de los creditos*/
+}
+footer{
+    padding: 5px;
+    width: 100%;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+/*pie de pagina para poner al autor de la pagina*/
+}
+.mapanav{
+    text-align: center;
+    font-family: 'Varela', sans-serif;
+    font-size: 1.8rem;
+    padding: 15px;
+    color: #B70808;
+}
+@media only screen and (max-width:480px){
+/*dentro de este @media se colocaran los estilos para que el contenido se adapte a  480px de ancho */
+    nav a{
+        max-width: 88%;
+    }
+    nav a h3{
+        margin: 10px;
+    }
+    ul.historianav li{
+        width: 90%;
+        margin: 5px 0;
+    }
+
+    .phistoria{
+        font-size: 0.8rem;
+    }
+    .fr,.fl{
+        float: none;
+    }
+    img.imghistoria,img.imghistoria2{
+        display: block;
+        width: 100%;
+    }
+    p.phistoria{
+        display: block;
+        width: 100%;
+    }
+
+    img.fiore{
+        width: 90%;
+    }
+    .pubicacion{
+        font-size: 0.9rem;
+    }
+
+    .ppersonajes2{
+        padding: 10px 20px;
+    }
+    .ppersonajes,.ppersonajes2{
+        font-size: 0.9rem;
+        display: block;
+        width: 100%;
+    }
+
+    .imgpersonajes{
+        display: block;
+        width: 100%;
+    }
+    div.contperso{
+        text-align: center;
+    }
+    h5{
+        font-size: 0.9rem;
+    }
+
+    .tcreditos a{
+        font-size: 0.8rem;
+    }
+
+    .tcreditos a:last-child{
+        margin-bottom: 5px;
+    }
+    footer{
+        margin-top: 10px;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:780px){
+/*dentro de este @media se colocaran los estilos para que el contenido se adapte a una pantalla con ancho de 481px a 780px */
+    ul.historianav li{
+        width: 49%;
+        margin: 5px 0;
+    }
+    .phistoria{
+        font-size: 0.9rem;
+    }
+    .contenedor{
+        width: 90%;
+    }
+    .ppersonajes,.ppersonajes2{
+        font-size: 0.9rem;
+    }
+}
+
+
+/* MAPA INTERACTIVO*/
+.mapa-principal{
+   width: 100%; padding: 10px;  
+}
+
+.cont-mapa{
+    position: relative;
+}
+.image  img:hover{
+    -webkit-transform: scale(1.2);
+    -webkit-transition: all .3s ease-in-out;
+    
+}
+
+/* --- Modal*/
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	display:none;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: auto;
+}
+.modalDialog > div {
+    width: 40%;
+    height: 60%;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  -webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+
+.modalDialog img{
+    width: 75%;
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+.close:hover { background: #00d9ff; }
+
+.cont-modal{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+/* Clases de las imagenes del mapa para asignar su ubicacion y tamaño*/
+.tenrou  img{
+    width: 7%;
+    z-index: 2;
+    position: absolute;
+
+    top: 57%;
+    left:9.5%;
+}
+
+
+.tower  img{
+    width: 11%;
+    z-index: 2;
+    position: absolute;
+
+    top: 51%;
+    left:76%;
+}
+
+.edolas  img{
+    width: 7%;
+    z-index: 2;
+    position: absolute;
+
+    top: 59%;
+    left:22%;
+}
+
+.train  img{
+    width: 9%;
+    z-index: 2;
+    position: absolute;
+    
+    top: 68%;
+    left:41%;
+}
+
+.forest  img{
+    width: 8%;
+    z-index: 2;
+    position: absolute;
+    
+    top: 66%;
+    left: 51%;
+}
+
+.onibus  img{
+    width: 9%;
+    z-index: 2;
+    position: absolute;
+    
+    top: 32%;
+    left: 33%;
+}
+
+.magnolia  img{
+    width: 7%;
+    z-index: 2;
+    position: absolute;
+    
+    top: 42%;
+    left: 42%;
+}
+
+.cat  img{
+    width: 7%;
+    z-index: 2;
+    position: absolute;
+    
+    top: 16%;
+    left: 60%;
+}
+
+.tartaros  img{
+    width: 12%;
+    z-index: 2;
+    position: absolute;
+    
+    top: 10%;
+    left: 45%;
+}
+
+.games  img{
+    width: 8%;
+    z-index: 2;
+    position: absolute;
+    
+    top: 23%;
+    left: 48%;
+}
+
+.galuna  img{
+    width: 9%;
+    z-index: 2;
+    position: absolute;
+    
+    top: 77%;
+    left: 67%;
+}
+
+.phantom  img{
+    width: 8%;
+    z-index: 2;
+    position: absolute;
+    
+    top: 39%;
+    left: 59%;
+}
+
+
+/*Clases de los modales para asignar sus imagenes de fondo*/
+.tenrou-modal{
+    background-image: url('imagenes/ejercicio2/tenrouisland2.jpg');
+    
+}
+.tower-modal{
+    background-image: url('imagenes/ejercicio2/towerofparadise2.jpg');
+    
+}
+
+.edolas-modal{
+    background-image: url('imagenes/ejercicio2/edolas2.jpg');
+    
+}
+
+.train-modal{
+    background-image: url('imagenes/ejercicio2/trainstation2.jpg');
+    
+}
+
+.forest-modal{
+    background-image: url('imagenes/ejercicio2/Eastforest2.jpg');
+    
+}
+
+.onibus-modal{
+    background-image: url('imagenes/ejercicio2/onibustown2.jpg');
+    
+}
+
+.magnolia-modal{
+    background-image: url('imagenes/ejercicio2/Magnolia2.jpg');
+    
+}
+
+.cat-modal{
+    background-image: url('imagenes/ejercicio2/caitshelter2.png');
+    
+}
+
+.tartaros-modal{
+    background-image: url('imagenes/ejercicio2/tartaros2.png');
+    
+}
+
+.games-modal{
+    background-image: url('imagenes/ejercicio2/games2.png');
+    
+}
+
+.galuna-modal{
+    background-image: url('imagenes/ejercicio2/garunaisland2.jpg');
+    
+}
+
+.phantom-modal{
+    background-image: url('imagenes/ejercicio2/phantomlord2.jpg');
+    
+}
+
+
+
+@media only screen and (max-width:480px){
+    .modalDialog > div{
+        background-repeat: round;
+        width: 90%;
+        height: 80%;
+        margin: 20% auto;
+    }
+
+    .modalDialog h2{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:780px){
+    .modalDialog > div{
+        background-repeat: round;
+        width: 80%;
+        height: 65%;
+        margin: 25% auto;
+    }
+    .modalDialog h2{
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width:781px) and (max-width:1145px){
+    .modalDialog > div{
+        background-repeat: round;
+        width: 70%;
+        height: 50%;
+        margin: 10% auto;
+    }
+
+    .modalDialog h2{
+        font-size: 2rem;
+    }
+}
